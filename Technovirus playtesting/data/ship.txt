@@ -1,6 +1,5 @@
 ship "Technovirus Bactrian"
-	sprite "ship/technovirus bactrian"
-	thumbnail "thumbnail/bactrian"
+	sprite "ship/technobactrian"
 	attributes
 		category "Heavy Warship"
 		"cost" 52600000 #(+35M)
@@ -75,7 +74,7 @@ ship "Technovirus Bactrian"
 	description "Once a self-sufficient ship capable of housing upwards of 200 people comfortably, this Bactrian has been no less than gutted by the Korath Technovirus. Almost all of its life support systems have been removed and replaced with shield emitters and extra hull plating. Some particularly large protrusions from the Bactrian even house additional turret mounts, making it a terrifyingly capable warship."
 		
 ship "Technovirus Star Barge"
-	sprite "ships/technostarbarge"
+	sprite "ships/technobarge"
 	attributes
 		category "Light Freighter"
 		"cost" 1260000 #(+1.05M)
@@ -231,7 +230,7 @@ ship "Technovirus Splinter"
 	"final explode" "final explosion medium"
 	description "Many of the Technovirus-infected ships have been pushed into a capital-ship role- slow, indestructible and heavy-hitting. The Technovirus Splinter fits the opposite role. It is much weaker than most Technovirus-infected ships, but flies much, much faster than any other vessel in space."
 		
-		ship "Technovirus Bounder"
+ship "Technovirus Bounder"
 	sprite "ships/technobounder"
 	attributes
 		category "Light Warship"
@@ -275,7 +274,7 @@ ship "Technovirus Splinter"
 	"final explode" "final explosion small"
 	description "An absolutely terrifying abomination, this technovirus-infected Bounder wields two Korath Detainers as its main armaments, and even with such heavy weapons, propels itself at unprecedented speeds."
 		
-		ship "Technovirus Carrier"
+ship "Technovirus Carrier"
 	sprite "ship/technocarrier"
 	attributes
 		category "Heavy Warship"
@@ -340,8 +339,6 @@ ship "Technovirus Splinter"
 	drone -100 73
 	drone 30 15
 	drone -30 15
-
-
 	explode "tiny explosion" 30
 	explode "small explosion" 50
 	explode "medium explosion" 60
